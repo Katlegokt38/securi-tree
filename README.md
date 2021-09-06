@@ -5,8 +5,10 @@ SecuriTree is an access control management application that provides a visual tr
 <br>
   
  ## How To Install 
- ### Step 1: Install NodeJS
-  * <a href="https://nodejs.org/en/download/"> Click on this link for a step by step solution </a>
+ ### Install NodeJS
+ ####Step 1 : Install NodeJs
+  * <a href="https://nodejs.org/en/download/">Visit this link and download nodejs</a>
+  In a web browser, navigate to https://nodejs.org/en/download/. Click the Windows Installer button to download the latest default version. At the time this article was written, version 10.16.0-x64 was the latest version. The Node.js installer includes the NPM package manager
 
  
  ## System Architecture 
