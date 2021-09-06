@@ -19,7 +19,7 @@ SecuriTree is an access control management application that provides a visual tr
 
  ### Step 3: Verify Installation
  * Open a command prompt (or PowerShell), and enter the following:
- * * node -v
+  * node -v
  * * npm -v
 
  
