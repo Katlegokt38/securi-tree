@@ -1,0 +1,16 @@
+<div class="container-fluid page">
+  <div class="d-flex page__box p-3 mt-2">Security Dashboard</div>
+  <div class="page__content shadow p-3 position-relative">
+    <h3>Dashboard</h3>
+    <div [style]="{'text-align':'center', 'margin-top':'3%'}">
+      <p-card (click)="onTree()"header="Security Hierarchy" [style] = "{ 'float':'left', 'margin': 'auto', 'margin-left':'8%', 'height': '55vh', 'width': '40%', 'background-color':'#f6f7ff', 'border-radius': '5%', 'box-shadow': '5px 10px 8px #888888'}" styleClass="p-card-shadow">
+        <img src="../../../assets/image/h-1.png" width="70%" display="block" margin-left= "50%" margin-right="auto">
+      </p-card>
+    </div>
+    <div [style]="{'text-align':'center'}">
+      <p-card (click)="onDoors()"header="Manage Doors" [style] = "{ 'float':'left', 'margin': 'auto', 'margin-left':'4%', 'height': '55vh', 'width': '40%',  'background-color':'#f6f7ff', 'border-radius': '5%', 'box-shadow': '5px 10px 8px #888888'}" styleClass="p-card-shadow">
+        <img src="../../../assets/image/door.png" width="37%">
+      </p-card>
+    </div>
+  </div>
+</div>

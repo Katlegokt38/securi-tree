@@ -1,0 +1,24 @@
+<form [formGroup]="LoginForm" >
+    <p-card header="Sign In" subheader="Please fill in the required fields" [style]="{width: '30%', 'text-align': 'center', 'margin': 'auto', 'margin-top':'10%', 'background-color':'#f6f7ff', 'border-radius': '5%', 'box-shadow': '5px 10px 8px #888888'}" styleClass="p-card-shadow">
+        <ng-template pTemplate="header">
+        </ng-template>
+        <div class="p-grid p-fluid" >
+            <p-messages></p-messages>
+            <div class="p-col-12 p-md-4">
+                <div class="p-inputgroup"  [style]="{width: '80%', 'margin': 'auto'}">
+                    <span class="p-inputgroup-addon"><i class="pi pi-user"></i></span>
+                    <input formControlName="username" type="text" pInputText placeholder="Username" ngModel required>         
+                </div>
+                <div class="p-inputgroup"  [style]="{width: '80%', 'margin': 'auto', 'margin-top':'5%'}">
+                    <span class="p-inputgroup-addon"><i class="pi pi-lock"></i></span>
+                    <input formControlName="password" type="password" pInputText placeholder="Password" ngModel required>         
+                </div>
+            </div>
+        </div>
+        <span>
+            <button pButton type="submit" label="Sign In" class="p-button-raised" [style]="{'text-align':'center', 'border-radius': '5%', width: '70%', 'margin-top':'5%'}" (click)="login()"></button>
+        </span>
+        <ng-template pTemplate="footer">   
+        </ng-template>
+    </p-card>
+</form>
