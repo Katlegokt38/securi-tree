@@ -5,6 +5,7 @@ SecuriTree is an access control management application that provides a visual tr
 <br>
   
  ## How To Install 
+ ### Step 1: Install NodeJS
  
  ## System Architecture 
  * <a href="https://drive.google.com/file/d/1eJ2Kq7G0Qf8SPfnZWAcyHdVKGY0SbtKp/view?usp=sharing"> Architectural Diagram </a>
