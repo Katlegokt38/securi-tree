@@ -1,3 +1,3 @@
 # SecuriTree
 
-<img src="/images/1.png" alt="Picture">
+![alt text](https://github.com/katlegokt38/securi-tree/main/images/1.jpg?raw=true)
