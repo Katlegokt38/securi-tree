@@ -8,7 +8,14 @@ SecuriTree is an access control management application that provides a visual tr
  ### Step 1 : Install NodeJs
   * In a web browser, navigate to https://nodejs.org/en/download/. Click the Windows Installer button to download the latest default version. At the time this article was written, version 10.16.0-x64 was the latest version. The Node.js installer includes the NPM package manager. Make sure to download the LTS version
 
- ### Step 1 : Install NodeJs
+ ### Step 2: Install Node.js and NPM from Browser
+ * Once the installer finishes downloading, launch it. Open the downloads link in your browser and click the file. Or, browse to the location where you have saved the file and double-click it to launch.
+* The system will ask if you want to run the software – click Run.
+* You will be welcomed to the Node.js Setup Wizard – click Next.
+* On the next screen, review the license agreement. Click Next if you agree to the terms and install the software.
+* The installer will prompt you for the installation location. Leave the default location, unless you have a specific need to install it somewhere else – then click Next.
+* The wizard will let you select components to include or remove from the installation. Again, unless you have a specific need, accept the defaults by clicking Next.
+* Finally, click the Install button to run the installer. When it finishes, click Finish.
 
  
  ## System Architecture 
