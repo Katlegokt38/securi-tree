@@ -5,7 +5,7 @@ SecuriTree is an access control management application that provides a visual tr
 <br>
   
  ## How To Install 
- ### Step 1 : Install NodeJs
+ ### Step 1 : Download Node.js Installer
   * In a web browser, navigate to https://nodejs.org/en/download/. Click the Windows Installer button to download the latest default version. At the time this article was written, version 10.16.0-x64 was the latest version. The Node.js installer includes the NPM package manager. Make sure to download the LTS version
 
  ### Step 2: Install Node.js and NPM from Browser
@@ -16,6 +16,11 @@ SecuriTree is an access control management application that provides a visual tr
 * The installer will prompt you for the installation location. Leave the default location, unless you have a specific need to install it somewhere else – then click Next.
 * The wizard will let you select components to include or remove from the installation. Again, unless you have a specific need, accept the defaults by clicking Next.
 * Finally, click the Install button to run the installer. When it finishes, click Finish.
+
+ ### Step 3: Verify Installation
+ * Open a command prompt (or PowerShell), and enter the following:
+ ** node -v
+ ** npm -v
 
  
  ## System Architecture 
