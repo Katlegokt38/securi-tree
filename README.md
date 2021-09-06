@@ -31,6 +31,7 @@ SecuriTree is an access control management application that provides a visual tr
 * After the node modules have been installed, type in **node seed** and press enter
 * This will automatically populate the CloudDB we are using
 * Only do this once and if the program does not terminate after 60s just pres **CTRL** + **C**
+* If you run it more than once or someone else runs it a second time, an error will be thrown because of duplicate values
 * Once that is complete type in **npm start** and type in **localhost:3000** in your web browser after the server is running
 * You should be able to see the login page
   
