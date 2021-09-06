@@ -24,10 +24,10 @@ SecuriTree is an access control management application that provides a visual tr
 
 ### Step : Run the program
 * Download this zip and open the command prompt (PowerShell) in the root folder of the zip
-* Once you are in the root folder type in ## npm start ## in the command prompt and press enter
-* After the node modules have been installed, type in ## node seed ## and press enter
-* Only Do this once and if the program does not terminate after 60s just pres ## CTRL ## + ## C ##
-* Once that is complete tupe in ## npm start ## and type in ## localhost:3000 ## in your web browser after the server is running
+* Once you are in the root folder type in ** npm start ** in the command prompt and press enter
+* After the node modules have been installed, type in ** node seed ** and press enter
+* Only Do this once and if the program does not terminate after 60s just pres ** CTRL ** + ** C **
+* Once that is complete tupe in ## npm start ## and type in ** localhost:3000 ** in your web browser after the server is running
 * You should be able to see the login page
 
  
