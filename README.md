@@ -14,7 +14,6 @@ SecuriTree is an access control management application that provides a visual tr
 * Email : katlegosekgethela@gmail.com
 * <details>
     <summary><b>About Me</b></summary>
-    <br>
     Passion driven BSc Computer Science student at the University of Pretoria. I believe diligence is key in being able to achieve any task in life and with that comes the need for discipline through hard work, however, with applying smart work ethic. My years in university have enabled me to develop good organizational skills; an analytical/logical approach to tasks and the ability to work under pressure. I am passionate about computer science and I would like to further my knowledge in that regard
     <br>
 </details>
