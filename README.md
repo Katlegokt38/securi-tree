@@ -6,6 +6,8 @@ SecuriTree is an access control management application that provides a visual tr
   
  ## How To Install 
  ### Step 1: Install NodeJS
+  * <a href=" https://phoenixnap.com/kb/install-node-js-npm-on-windows#ftoc-heading-6"> Click on this link for a step by step solution </a>
+
  
  ## System Architecture 
  * <a href="https://drive.google.com/file/d/1eJ2Kq7G0Qf8SPfnZWAcyHdVKGY0SbtKp/view?usp=sharing"> Architectural Diagram </a>
