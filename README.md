@@ -7,7 +7,7 @@ SecuriTree is an access control management application that provides a visual tr
  ## How To Install 
  
  ## System Architecture 
- * <a href="https://www.linkedin.com/in/katlego-sekgethela-a751a31a5/"> Architectural Diagram </a>
+ * <a href="https://drive.google.com/file/d/1eJ2Kq7G0Qf8SPfnZWAcyHdVKGY0SbtKp/view?usp=sharing"> Architectural Diagram </a>
   
 ## Developer
 <b>Katlego Sekgethela</b><br>
