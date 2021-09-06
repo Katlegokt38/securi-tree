@@ -3,6 +3,9 @@
 ## Description
 SecuriTree is an access control management application that provides a visual tree view of the security and access control units installed in a client’s S3 system. This application will allow authorised security operatives to monitor and manage each physical security and access control unit (areas, doors, elevators, floors, etc.), at a client’s premises from one central location.
 <br>
+
+ ## System Architecture 
+ * <a href="https://drive.google.com/file/d/1eJ2Kq7G0Qf8SPfnZWAcyHdVKGY0SbtKp/view?usp=sharing"> Architectural Diagram </a>
   
  ## How To Install 
  ### Step 1 : Download Node.js Installer
@@ -30,10 +33,6 @@ SecuriTree is an access control management application that provides a visual tr
 * Only do this once and if the program does not terminate after 60s just pres **CTRL** + **C**
 * Once that is complete type in ## npm start ## and type in **localhost:3000** in your web browser after the server is running
 * You should be able to see the login page
-
- 
- ## System Architecture 
- * <a href="https://drive.google.com/file/d/1eJ2Kq7G0Qf8SPfnZWAcyHdVKGY0SbtKp/view?usp=sharing"> Architectural Diagram </a>
   
 ## Developer
 <b>Katlego Sekgethela</b><br>
