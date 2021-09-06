@@ -1,7 +1,7 @@
 # SecuriTree
 
 ## Description
-This repository represents a remote collaboration for SmartGrade offered by the University of Pretoria. SmartGrade is a web application that will simplify the grading process for lecturers and teachers. This system automates the mark allocation process and by having such a system in place, it can also identify students that are struggling and provide predictive analysis to see what forms of assessment students are doing better in. This helps in adjusting learning outcomes to target areas where students struggle.
+SecuriTree is an access control management application that provides a visual tree view of the security and access control units installed in a client’s S3 system. This application will allow authorised security operatives to monitor and manage each physical security and access control unit (areas, doors, elevators, floors, etc.), at a client’s premises from one central location.
 <br>
   
  ## How To Install 
