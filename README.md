@@ -25,7 +25,7 @@ SecuriTree is an access control management application that provides a visual tr
  * * node -v
  * * npm -v
 
-### Step : Run the program
+### Step 4: Run the program
 * Download this zip and open the command prompt (PowerShell) in the root folder of the zip after extracting it
 * Once you are in the root folder type in **npm install** in the command prompt and press enter
 * After the node modules have been installed, type in **node seed** and press enter
