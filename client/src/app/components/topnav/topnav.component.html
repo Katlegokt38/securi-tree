@@ -1,0 +1,17 @@
+<mat-toolbar *ngIf="!getLogin()">
+    <mat-toolbar-row class="justify-content-between">
+      <button mat-icon-button (click)="toggleSidebar()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <div class="row mr-2 ml-auto">
+        <ul class="row m-0 align-items-center">
+          <li>
+            <button mat-button routerLink="/profile" class="user mt-2 d-flex align-items-center">
+                <img src="../../../assets/image/user.png" alt="pp" class="user-image mr-1 p-2" />
+                {{user.firstname}} {{user.surname}}
+            </button>
+          </li>
+        </ul>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
