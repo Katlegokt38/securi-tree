@@ -1,0 +1,11 @@
+<div class="container-fluid page">
+    <div class="d-flex page__box p-3 mt-2">Security Dashboard</div>
+    <div class="page__content shadow p-3 position-relative">
+      <h3>Hierarchy</h3>
+      <div style="margin-bottom: 1rem">
+        <button pButton type="button" label="Expand all" (click)="expandAll()" style="margin-right: .5rem"></button>
+        <button pButton type="button" label="Collapse all" (click)="collapseAll()"></button>
+      </div>
+      <p-progressBar mode="indeterminate" *ngIf="progress"></p-progressBar>
+      <p-tree *ngIf="!progress" [value]="files1" scrollHeight="500px" [filter]="true"></p-tree>
+  </div>
