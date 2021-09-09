@@ -1,0 +1,39 @@
+<div class="container-fluid page">
+    <div class="d-flex page__box p-3 mt-2">Security Dashboard</div>
+    <div class="page__content shadow p-3 position-relative">
+        <h3>Manage Doors</h3>
+        <form [formGroup]="UpdateForm" >
+            <p-card header="Update Door State" subheader="Please fill in the required fields" [style]="{width: '45%', 'text-align': 'center', 'margin': 'auto', 'margin-top':'5%', 'background-color':'#f6f7ff', 'border-radius': '5%', 'box-shadow': '5px 10px 8px #888888'}" styleClass="p-card-shadow">
+                <ng-template pTemplate="header">
+                     
+                </ng-template>
+                <div class="p-grid p-fluid" >
+                    <p-messages ></p-messages> 
+                    <div class="p-col-12 p-md-4">
+                        <div class="p-inputgroup"  [style]="{width: '80%', 'margin': 'auto', 'margin-top':'0%'}">
+                            <span class="p-inputgroup-addon"><i class="pi pi-mobile"></i></span>
+                            <p-dropdown formControlName="door" [options]="doorName" placeholder="Select a Door" [autoDisplayFirst]="false" optionLabel="name"></p-dropdown>        
+                        </div>
+                        <div class="p-inputgroup"  [style]="{width: '80%', 'margin': 'auto', 'margin-top':'5%'}">
+                            <span class="p-inputgroup-addon"><i class="pi pi-unlock"></i></span>
+                            <p-dropdown formControlName="state" [options]="state" placeholder="Select a State" [autoDisplayFirst]="false" optionLabel="name"></p-dropdown>        
+                        </div>
+                    </div>
+                </div>
+                <span>
+                    <button pButton type="submit" label="Update" class="p-button-raised" (click)="show()" [style]="{'text-align':'center', 'border-radius': '5%', width: '70%', 'margin-top':'5%'}"></button>
+                </span>
+                <ng-template pTemplate="footer"> 
+                    <p-dialog header = "Confirmation" [modal]="true" [(visible)]="displayEditDialog" [breakpoints]="{'960px': '75vw'}" [draggable]="false" [resizable]="false">
+                        Are you sure you want to change the Door state?
+                        <ng-template pTemplate="footer">
+                            <p-button (click)="display(false, false)" label="No" styleClass="p-button-text"></p-button>
+                            <p-button (click)="display(false, true)" label="Yes" styleClass="p-button-text"></p-button>
+                            </ng-template>
+                    </p-dialog>
+                    
+                </ng-template>
+            </p-card>
+        </form>
+    </div>
+  </div>
