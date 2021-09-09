@@ -1,0 +1,14 @@
+<mat-nav-list >
+    <div class="logo py-4">
+        <h3>SecuriTree</h3>
+        <!-- <img src="../../../assets/image/5.png" alt="Company Logo"> -->
+    </div>
+    <mat-divider></mat-divider>
+    <h2 matSubheader class="mt-2">APPLICATION</h2>
+    <!-- <a mat-list-item routerLink="/home" routerLinkActive="list-item-active"><mat-icon>home</mat-icon>Home</a> -->
+    <a mat-list-item routerLink="/dashboard" routerLinkActive="list-item-active"><mat-icon>dashboard</mat-icon>Dashboard</a>
+    <a mat-list-item routerLink="/tree" routerLinkActive="list-item-active"><mat-icon>work</mat-icon>Hierarchy</a>
+    <a mat-list-item routerLink="/manage" routerLinkActive="list-item-active"><mat-icon>settings</mat-icon>Manage Doors</a>
+    <a mat-list-item routerLink="/profile" routerLinkActive="list-item-active"><mat-icon>account_circle</mat-icon>Profile</a>
+    <a mat-list-item (click)="onLogoutClick()"><mat-icon>logout</mat-icon>Logout</a>
+</mat-nav-list>
